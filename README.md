@@ -1,3 +1,6 @@
 # diet2020
 
-website: tastytarget.com
+- Domain name: tastytarget.com
+- Data source: allrecipes.com and USDA
+
+
