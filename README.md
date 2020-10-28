@@ -17,10 +17,17 @@ Instructions:
 source activate graphql
 cd graphql-python
 pip install -r requirements.txt
+cd hackernews
 python manage.py migrate
 python manage.py runserver
 ```
 - Creating a Query:
+```
+>>> python manage.py shell
+>>> from links.models import Link
+>>> Link.objects.create(url='https://www.howtographql.com/', description='The Fullstack Tutorial for GraphQL')
+>>> Link.objects.create(url='https://twitter.com/jonatasbaldin/', description='The Jonatas Baldin Twitter')
+```
 ```
 query {
   links {
@@ -30,53 +37,24 @@ query {
   }
 }
 ```
-- Creating a Link:
-```
-mutation {
-  createLink(
-    url: "https://github.com",
-    description: "Lots of Code!"
-    url
-   ){
-    id
-    url
-    description
-    }
-}
-```
-- Creating a Link:
-```
-mutation {
-  createLink(
-    url: "https://github.com",
-    description: "Lots of Code!"
-    url
-   ){
-    id
-    url
-    description
-    }
-}
-```
 - Creating a User:
 ```
-mutation {
-  createUser (
-    username: "Zeyu",
-    email: "zeyuyang8@gmail.com",
-    password: "123"
-    )
-  user { 
-    id
-    username
-    email
+mutation{
+  createUser(username:"zeyu",
+  email:"zeyuyang8@gmail.com",
+  password:"diet2020"){
+    user{
+      id
+      username
+      email
     }
+  }
 }
 ```
 - Querying the Users:
 ```
-query {
-  users {
+query{
+  users{
     id
     username
     email
@@ -86,33 +64,20 @@ query {
 - Configuring django-graphql-jwt:
 ```
 mutation {
-  tokenAuth (
-    username: "Zeyu",
-    password: "123"
-    ){ 
+	tokenAuth(username:"zeyu",
+  password:"diet2020"){
     token
-    }
-}
-```
-
-```
-mutation {
-  verifyToken (
-    token: "fjladkshflkgkasj"
-    ){ 
-    payload
-    }
-}
-```
-
-```
-query {
-  me {
-    id
-    username
   }
 }
 ```
+```
+mutation {
+	verifyToken(token:"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InpleXUiLCJleHAiOjE2MDM4ODcwNzQsIm9yaWdJYXQiOjE2MDM4ODY3NzR9.1kHiPFUPrZgcyY7EtqJLMXLIuZu3MP8l73C_iVlWn1g"){
+    payload
+  }
+}
+```
+
 
 
 
