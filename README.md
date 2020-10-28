@@ -77,7 +77,126 @@ mutation {
   }
 }
 ```
-
+- Attaching Users to Links (after Authentication):
+```
+mutation {
+	createLink(
+    url:"www.baidu.com",
+    description: "great website"
+  ){
+    id
+    url
+    description
+    postedBy{
+      id
+      username
+      email
+    }
+  }
+}
+```
+- Adding Votes:
+```
+mutation {
+	createVote(linkId:1){
+    user {
+      id
+      username
+      email
+    }
+    link {
+      id
+      description
+      url
+    }
+  }  
+}
+```
+- Relating Links and Votes:
+```
+query{
+  votes{
+    id
+    user{
+      id
+      username
+    }
+    link{
+      id
+      url
+    }
+  }
+}
+```
+```
+query{
+  links{
+    id
+    url
+    votes{
+      id
+      user {
+        id
+        username
+      }
+    }
+  }
+}
+```
+- Filtering Links:
+```
+query{
+	links(search:"jonatas"){
+    id
+    url
+    description
+  }
+}
+```
+- Paginating Links:
+```
+query{
+	links(first:1,skip:1){
+    id
+    url
+    description
+  }
+}
+```
+- Using Relay on Links:
+```
+query{
+	relayLinks(first:1){
+    edges{
+      node{
+        id
+        url
+        description
+      }
+    }
+    pageInfo{
+      startCursor
+      endCursor
+    }
+  }
+}
+```
+- Relay and Mutations:
+```
+mutation{
+  relayCreateLink(input:{
+    url: "tastytarget.com",
+    description: "diet optimizer"
+  })
+  {
+    link{
+      id
+      url
+      description
+    }
+  }
+}
+```
 
 
 
