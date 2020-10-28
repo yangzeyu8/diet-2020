@@ -10,9 +10,9 @@ Tutorial: https://github.com/howtographql/graphql-python
 
 GraphiQL: http://localhost:8000/graphql/
 
-Instructions:
+#### Instructions
 
-- Running the Server:
+Running the Server:
 ```
 source activate graphql
 cd graphql-python
@@ -21,7 +21,7 @@ cd hackernews
 python manage.py migrate
 python manage.py runserver
 ```
-- Creating a Query:
+Creating a Query:
 ```
 >>> python manage.py shell
 >>> from links.models import Link
@@ -37,7 +37,7 @@ query {
   }
 }
 ```
-- Creating a User:
+Creating a User:
 ```
 mutation{
   createUser(username:"zeyu",
@@ -51,7 +51,7 @@ mutation{
   }
 }
 ```
-- Querying the Users:
+Querying the Users:
 ```
 query{
   users{
@@ -61,7 +61,7 @@ query{
   }
 }
 ```
-- Configuring django-graphql-jwt:
+Configuring django-graphql-jwt:
 ```
 mutation {
 	tokenAuth(username:"zeyu",
@@ -77,8 +77,7 @@ mutation {
   }
 }
 ```
-After Authentication
-- Attaching Users to Links:
+Attaching Users to Links:
 ```
 mutation {
 	createLink(
@@ -96,7 +95,7 @@ mutation {
   }
 }
 ```
-- Adding Votes:
+Adding Votes:
 ```
 mutation {
 	createVote(linkId:1){
@@ -113,7 +112,7 @@ mutation {
   }  
 }
 ```
-- Relating Links and Votes:
+Relating Links and Votes:
 ```
 query{
   votes{
@@ -144,7 +143,7 @@ query{
   }
 }
 ```
-- Filtering Links:
+Filtering Links:
 ```
 query{
 	links(search:"jonatas"){
@@ -154,7 +153,7 @@ query{
   }
 }
 ```
-- Paginating Links:
+Paginating Links:
 ```
 query{
 	links(first:1,skip:1){
@@ -164,7 +163,7 @@ query{
   }
 }
 ```
-- Using Relay on Links:
+Using Relay on Links:
 ```
 query{
 	relayLinks(first:1){
@@ -182,7 +181,7 @@ query{
   }
 }
 ```
-- Relay and Mutations:
+Relay and Mutations:
 ```
 mutation{
   relayCreateLink(input:{
