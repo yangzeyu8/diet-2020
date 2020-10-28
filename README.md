@@ -77,7 +77,8 @@ mutation {
   }
 }
 ```
-- Attaching Users to Links (after Authentication):
+After Authentication
+- Attaching Users to Links:
 ```
 mutation {
 	createLink(
