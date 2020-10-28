@@ -14,12 +14,12 @@ GraphiQL: http://localhost:8000/graphql/
 
 Running the Server:
 ```
-source activate graphql
-cd graphql-python
-pip install -r requirements.txt
-cd hackernews
-python manage.py migrate
-python manage.py runserver
+>>> source activate graphql
+>>> cd graphql-python
+>>> pip install -r requirements.txt
+>>> cd hackernews
+>>> python manage.py migrate
+>>> python manage.py runserver
 ```
 Creating a Query:
 ```
