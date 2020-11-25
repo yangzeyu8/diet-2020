@@ -5,7 +5,7 @@ Domain name: http://tastytarget.com/
 Data source: https://www.allrecipes.com/ and USDA
 
 ## Backend
-### graphql-python
+### GraphQL-Python
 Tutorial: https://github.com/howtographql/graphql-python
 
 ## Recipe Recommendation
