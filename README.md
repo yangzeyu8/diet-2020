@@ -8,4 +8,8 @@ Data source: https://www.allrecipes.com/ and USDA
 ### graphql-python
 Tutorial: https://github.com/howtographql/graphql-python
 
-GraphiQL: http://localhost:8000/graphql/
+## Recipe Recommendation
+Python 3.6
+### Content-Based Filtering
+
+### Collaborative Filtering
