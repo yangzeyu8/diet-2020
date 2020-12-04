@@ -1,6 +1,6 @@
 # Diet2020
 
-Domain name: http://tastytarget.com/
+Domain name: https://tastytarget.azurewebsites.net/
 
 Data source: https://www.allrecipes.com/ and USDA
 
