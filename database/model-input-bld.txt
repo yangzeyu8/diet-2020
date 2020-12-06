@@ -117,7 +117,6 @@ numofpage =
 group_name = 'Lunch and Dinner Recipes|Salmon Recipes'
 home_path = '../data/'
 
-###############
 homepage = 'https://www.allrecipes.com/recipes/201/meat-and-poultry/chicken/'
 numofpage = 
 group_name = 'Lunch and Dinner Recipes|Chicken Recipes'
@@ -153,6 +152,131 @@ numofpage =
 group_name = 'Lunch and Dinner Recipes|Shrimp Recipes'
 home_path = '../data/'
 
+## Appetizer & Snack Recipes
+
+homepage = 'https://www.allrecipes.com/recipes/17024/appetizers-and-snacks/cheese/baked-brie/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Baked Brie Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/663/meat-and-poultry/chicken/chicken-wings/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Chicken Wing Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/110/appetizers-and-snacks/deviled-eggs/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Deviled Egg Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/434/appetizers-and-snacks/dips-and-spreads/guacamole/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Guacamole Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/1241/appetizers-and-snacks/vegetable/jalapeno-poppers/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Jalapeno Popper Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/1228/appetizers-and-snacks/cheese/nachos/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Nacho Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/14906/appetizers-and-snacks/vegetable/mushrooms/stuffed-mushrooms/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Stuffed Mushroom Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/16833/appetizers-and-snacks/bruschetta/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Bruschetta Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/1240/appetizers-and-snacks/seafood/crab/crab-cakes/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Crab Cake Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/13362/appetizers-and-snacks/dips-and-spreads/fruit-dip/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Fruit Dip Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/1281/appetizers-and-snacks/dips-and-spreads/hummus/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Hummus Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/15852/appetizers-and-snacks/meat-and-poultry/meatball-appetizers/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Meatball Appetizers'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/436/appetizers-and-snacks/dips-and-spreads/salsa/'
+numofpage = 
+group_name = 'Appetizer & Snack Recipes|Salsa Recipes'
+home_path = '../data/'
+
+## Bread Recipes
+
+homepage = 'https://www.allrecipes.com/recipes/343/bread/quick-bread/fruit-bread/banana-bread/'
+numofpage = 
+group_name = 'Bread Recipes|Banana Bread Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/338/bread/bread-machine/'
+numofpage = 
+group_name = 'Bread Recipes|Bread Machine Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/355/bread/pastries/doughnuts/'
+numofpage = 
+group_name = 'Bread Recipes|Doughnut Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/347/bread/quick-bread/pumpkin-bread/'
+numofpage = 
+group_name = 'Bread Recipes|Pumpkin Bread Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/349/bread/yeast-bread/sourdough-bread/'
+numofpage = 
+group_name = 'Bread Recipes|Sourdough Bread Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/348/bread/quick-bread/zucchini-bread/'
+numofpage = 
+group_name = 'Bread Recipes|Zucchini Bread Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/1998/bread/quick-bread/biscuits/'
+numofpage = 
+group_name = 'Bread Recipes|Biscuit Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/342/bread/quick-bread/cornbread/'
+numofpage = 
+group_name = 'Bread Recipes|Cornbread Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/350/bread/quick-bread/muffins/'
+numofpage = 
+group_name = 'Bread Recipes|Muffin Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/360/bread/quick-bread/'
+numofpage = 
+group_name = 'Bread Recipes|Quick Bread Recipes'
+home_path = '../data/'
+
+homepage = 'https://www.allrecipes.com/recipes/339/bread/yeast-bread/'
+numofpage = 
+group_name = 'Bread Recipes|Yeast Bread Recipes'
+home_path = '../data/'
+
+## Dessert Recipes
 
 
 
