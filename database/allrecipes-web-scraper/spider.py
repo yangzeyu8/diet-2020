@@ -33,7 +33,7 @@ def spider(homepage, numofpage, group_name, home_path):
             break
 
     '''creating directories'''
-    path = home_path + group_name
+    path = home_path +'/' + group_name
     create_project_dir(path)  # '../data/breakfast'
     create_project_dir(path + '/each_' + group_name)  # '../data/breakfast/each_breakfast'
     output = []
