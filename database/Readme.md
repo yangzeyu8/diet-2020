@@ -13,10 +13,5 @@ from bs4 import BeautifulSoup
 import re
 ```
 
-To run the web scraper program:
-
-```python
-cd allrecipes-web-scraper
-python main.py
-```
+To launch the web scraper program, run the notebook.
 
