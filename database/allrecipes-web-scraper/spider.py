@@ -20,7 +20,9 @@ def spider(homepage, numofpage, group_name, home_path):
             for m in range(10):
                 try:
                     add = geturls(recipepage, i)
-                    print('get page ' + str(i) + ' all the recipe urls')
+                    urls = urls + add
+                    print('get page ' + str(i) + 'of all the recipe urls: ')
+                    print(add)
                     time.sleep(0.1)
                     break
                 except Exception as e:
@@ -28,7 +30,6 @@ def spider(homepage, numofpage, group_name, home_path):
                         print(e)
                     else:
                         time.sleep(0.1)
-            urls = urls + add
         except Exception as e:
             break
 
