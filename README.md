@@ -9,7 +9,7 @@ Data source: https://www.allrecipes.com/ and USDA
 Tutorial: https://github.com/howtographql/graphql-python
 
 ## Recipe Recommendation
-Python 3.6
+Python 3.7
 ### Content-Based Filtering
 
 ### Collaborative Filtering
