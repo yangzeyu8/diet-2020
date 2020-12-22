@@ -1,4 +1,4 @@
-# Diet2020
+# diet-2020
 
 Domain name: https://tastytarget.azurewebsites.net/
 
