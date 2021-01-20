@@ -1,0 +1,8 @@
+user_id,gender,age_desc,height,weight,diets,allergies,disliked_ingredients,favorite_cuisines,goals,cooking_level
+1,M,18-24,180,75,NaN,NaN,pork,Chinese,save time,beginner
+2,M,18-24,190,90,NaN,apple,pork,Chinese,eat healthy,beginner
+3,M,18-24,182,80,NaN,milk,lamb,Chinese,save money,medium
+4,M,18-24,175,65,NaN,NaN,broccoli,Chinese,save money,beginner
+5,F,50-60,167,60,NaN,NaN,NaN,Chinese,eat healthy,expert
+6,M,18-24,192,105,NaN,NaN,pineapple,Chinese,eat healthy,beginner
+7,F,18-24,166,60,NaN,NaN,apple,Chinese,eat healthy,beginner
